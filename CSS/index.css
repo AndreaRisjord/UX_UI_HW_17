@@ -1,0 +1,49 @@
+
+specialH {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #405794;
+    font-size: 200px;
+    font-weight: bold;
+}
+body {
+    background-color: #fbf7ea;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 36px;
+    color: #405794;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    color:#405794;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #405794;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color:#405794;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: #405794;
+}
+
+.fancyDropMain {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    outline-color: #405794;
+    color: #fbf7ea;
+    text-shadow: 2px 2px 0px #f0e800;
+}
