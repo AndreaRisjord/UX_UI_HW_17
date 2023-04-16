@@ -154,30 +154,48 @@ border-right: #405794 1px solid;
 }
 
 .footer{
+    width: 100vw;
+    padding: 70px;
+    box-sizing: border-box;
     border-top: #405794 solid 1px;
     display: grid;
-    height: 200px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas: 
-    "footerImage footerImage AndreaRisjord AndreaRisjord"
-    "footerImage footerImage footerMenu footerMenu"
-    "footerImage footerImage footerMenu footerMenu"
-    "footerImage footerImage sloganFooter sloganFooter"
-    ;
-
+    "AndreaRisjord AndreaRisjord AndreaRisjord AndreaRisjord AndreaRisjord"
+    "footerImage footerImage footerMenu footerMenu footerMenu"
+    "footerImage footerImage footerMenu footerMenu footerMenu"
+    "footerImage footerImage sloganFooter sloganfFooter sloganFooter";
 }
-.cloumn3{
-    display: flex;
-    justify-content: space-between;
 
+.footerImage{
+    grid-area: footerImage;
+}
+
+.AndreaRisjord{
+    grid-area: AndreaRisjord;
 }
 
 .footerMenu{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: 
-    ""
-    ;
+    grid-area: footerMenu;
+    display: flex;
+    justify-content: space-between;
+}
+    .column1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .column2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cloumn3{
+        display: flex;
+        align-items: space-evenly;
+    }
+
+.sloganFooter{
+    grid-area: sloganFooter;
 }
