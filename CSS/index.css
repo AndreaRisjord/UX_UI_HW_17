@@ -1,12 +1,7 @@
 
 
 
-.h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 36px;
-    color: #405794;
-    margin-right: 30px;
-}
+
 
 body {
     background-color: #fbf7ea;
@@ -93,14 +88,23 @@ button:hover{
     transform: translate3d(4px);
 }
 
-.specialHeader {
+.hiIm {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #405794;
+    margin-right: 30px;
+    letter-spacing: .10em;
+}
+
+.andreaHeader {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #405794;
-    font-size: 200px;
+    font-size: 250px;
     font-weight: bold;
     padding: 0px, 0px, 0px, 0px;
     margin-bottom: 0px;
 }
+
 .pageHeader{
     display: flex;
     align-items: baseline;
@@ -131,11 +135,14 @@ padding-right: 5%;
 border-right: #405794 1px solid;
 
 }
+#readmoreMain {
+    float: right;
+}
 
 .mainPort{
     align-items: center;
     width: 35%;
-    padding: 20px;
+    padding: 20px 20px 20px 30px;
 }
 
 .Nav{
@@ -146,4 +153,31 @@ border-right: #405794 1px solid;
     width: 20%;
 }
 
+.footer{
+    border-top: #405794 solid 1px;
+    display: grid;
+    height: 200px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "footerImage footerImage AndreaRisjord AndreaRisjord"
+    "footerImage footerImage footerMenu footerMenu"
+    "footerImage footerImage footerMenu footerMenu"
+    "footerImage footerImage sloganFooter sloganFooter"
+    ;
 
+}
+.cloumn3{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footerMenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    ""
+    ;
+}
