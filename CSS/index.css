@@ -51,6 +51,16 @@ h5 {
     color: #405794;
 }
 
+h6{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 48px;
+    letter-spacing: 0.05em;
+    -webkit-text-stroke-color: #405794;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-fill-color: #fbf7ea;
+    text-shadow: 4px 4px 0px #f0e800;
+}
+
 
 p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -97,6 +107,7 @@ button:hover{
     justify-content: flex-end;
     border-bottom: #405794 1px solid;
     padding: 0px, 0px, 0px, 0px;
+    margin: 0px;
 }
 
 .heroMain{
@@ -117,11 +128,12 @@ width: 35%;
 padding-left: 2%;
 padding-top: 1%;
 padding-right: 5%;
+border-right: #405794 1px solid;
 
 }
 
 .mainPort{
-    align-items: flex-end;
+    align-items: center;
     width: 35%;
     padding: 20px;
 }
@@ -135,25 +147,3 @@ padding-right: 5%;
 }
 
 
-
-.slogan {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 48px;
-    outline-color: #405794;
-    color: #fbf7ea;
-    text-shadow: 2px 2px 0px #f0e800;
-}
-
-.sloganFooter {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 54px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.1em;
-    color: #fbf7ea;
-    text-shadow: 2px 2px 0px #f0e800;
-}
