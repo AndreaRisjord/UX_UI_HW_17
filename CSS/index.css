@@ -155,47 +155,49 @@ border-right: #405794 1px solid;
 
 .footer{
     width: 100vw;
-    padding: 70px;
-    box-sizing: border-box;
+    height: 200px;
     border-top: #405794 solid 1px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    "AndreaRisjord AndreaRisjord AndreaRisjord AndreaRisjord AndreaRisjord"
-    "footerImage footerImage footerMenu footerMenu footerMenu"
-    "footerImage footerImage footerMenu footerMenu footerMenu"
-    "footerImage footerImage sloganFooter sloganfFooter sloganFooter";
+    display: inline-block;
+    justify-content: space-around;
+    margin: 70px;
+
 }
 
 .footerImage{
-    grid-area: footerImage;
+    display: inline-block;
 }
 
 .AndreaRisjord{
-    grid-area: AndreaRisjord;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .footerMenu{
-    grid-area: footerMenu;
-    display: flex;
-    justify-content: space-between;
+   display: inline-block;
+    
 }
+
     .column1{
-        display: flex;
         flex-direction: column;
+        display: inline-block;
+        margin-right: 40px;
     }
 
     .column2{
-        display: flex;
         flex-direction: column;
+        display: inline-block;
+        margin-right: 40px;
     }
 
     .cloumn3{
-        display: flex;
-        align-items: space-evenly;
+        display: inline-block;
     }
 
+
+
 .sloganFooter{
-    grid-area: sloganFooter;
+    align-items: right;
+    width: 50vw;
+    
 }
